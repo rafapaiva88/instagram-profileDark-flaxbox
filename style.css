@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, footer {
+    background: #090808;
+    font-family: 'Roboto', Arial, sans-serif;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+}
+
+input, button {
+    outline: none;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.content .phone {
+    width: 455px;
+    height: 618px;
+    margin-top: 32px;
+  
+}
+
+.box-default {
+    margin-top: 40px;
+}
+
+.box-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex;
+    align-items: flex;
+
+    background: rgba(38, 38, 38, 0.5);
+    border: 1px solid rgba(30, 39, 46, 0.7);
+    border-radius: 1px
+}
+
+
+.box-login > img {
+    width: 176px;
+    height: 63px;
+
+    margin: 21px 90px 30px 90px;
+
+   
+}
+
+.box-login input {
+    width: 268px;
+    height: 38px;
+
+    background: #FAFAFA;
+    border-radius: 3px;
+    border: 1px solid #DBDBDB;
+
+    margin: 8px 41px 0 41px;
+}
+
+
+
+.box-login input::placeholder {
+    font-size: 12px;
+    line-height: 36px;
+    color: #8E8E8E;
+    padding: 8px;
+}
+
+.box-login > a img {
+    width: 16px;
+    height: 16px;
+}
+
+.box-login .button-login {
+    width: 268px;
+    height: 30px;
+
+    background: rgba(0, 148, 246, 0.726);
+    box-shadow: 0px 4px 4px rgba(223, 212, 212, 0);
+    border-radius: 4px;
+
+    margin: 15px 41px 0 41px;
+
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #fff;
+
+    border: none;
+}
+
+.box-login .side {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 17px;
+}
+
+.box-login .side span {
+    font-size: 12px;
+    line-height: 15px;
+    color: #8E8E8E;
+    margin: 0 20px;
+    font-weight: bold;
+}
+
+.box-login .side hr{
+    width: 107px;
+    border: 0.5px solid #DBDBDB
+}
+
+.box-login .facebook-login  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+
+    font-size: 14px;
+    line-height: 18px;
+    color: #F1F4FA;
+
+    margin-top: 28px;
+    font-weight: bold;
+}
+
+.box-login .facebook-login img {
+    margin-right: 5px;
+}
+
+.box-login .wrong-password {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 11px;
+    line-height: 14px;
+
+    color: #F1F4FA;
+
+    margin: 22px 0;
+}
+
+.box-default .box-signin {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: rgba(38, 38, 38, 0.5);
+    border: 1px solid rgba(30, 39, 46, 0.7);
+    border-radius: 1px;
+
+    margin-top: 10px;
+}
+
+.box-default .box-signin span {
+    font-size: 13px;
+    color: #fff;
+    margin-right: 5px;
+    
+}
+
+.box-default .box-signin a {
+    text-decoration: none;
+    font-size: 13px;
+    color: #0095F6;
+
+    margin: 22px 0;
+}
+
+.box-default .getapp {
+    font-size: 14px;
+    color: #fff;
+    justify-content: center;
+    align-content: center;
+
+    display: flex;
+
+    margin: 20px 0;
+}
+
+.box-default .app {
+    justify-content: center;
+    align-content: center;
+    display: flex;
+}
+
+.box-default .app > img {
+    margin-right: 8px;
+}
+
+.footer-content {
+    height: 130px;
+
+    margin-top: 45px;
+}
+
+.footer-content .bar ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 21px;
+    
+}
+
+.footer-content .bar ul li {
+   list-style: none;
+
+   font-size: 11px;
+   color: #8E8E8E;
+   margin: 0px 16px 20px 0px;
+}
+
+.footer-content .copyright ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-content .copyright ul li {
+    list-style: none;
+
+   font-size: 11px;
+   color: #8E8E8E;
+
+   margin-right: 32px;;
+}
